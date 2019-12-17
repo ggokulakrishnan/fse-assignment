@@ -112,7 +112,7 @@
       <Project>{52ed51c0-fe87-4387-b9f3-04ec971c0bd7}</Project>
       <Name>FSE.PMS.IL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FSE.PMS\FSE.PMS.csproj">
+    <ProjectReference Include="..\FSE.PMS.csproj">
       <Project>{94067CDF-FA1D-4DCB-BBE1-BD3925112331}</Project>
       <Name>FSE.PMS</Name>
     </ProjectReference>
