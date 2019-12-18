@@ -18,23 +18,23 @@ namespace FSE.PMS.Tests.UnitTest
                 new Projects
                 {
                     ProjectID=1,
-                    Project="Project 1",
+                    Project="PRJ-GSM",
                     StartDate=DateTime.Now.Date,
-                    EndDate=DateTime.Now.Date.AddDays(1)
+                    EndDate=DateTime.Now.Date.AddDays(5)
                 },
                 new Projects
                 {
                     ProjectID=2,
-                    Project="Project 2",
+                    Project="PRJ-FDE",
                     StartDate=DateTime.Now.Date,
-                    EndDate=DateTime.Now.Date.AddDays(1)
+                    EndDate=DateTime.Now.Date.AddDays(5)
                 },
                 new Projects
                 {
                     ProjectID=3,
-                    Project="Project 3",
+                    Project="PRJ-GCA",
                     StartDate=DateTime.Now.Date,
-                    EndDate=DateTime.Now.Date.AddDays(1)
+                    EndDate=DateTime.Now.Date.AddDays(5)
                 }
             }.AsQueryable();
 
@@ -56,25 +56,25 @@ namespace FSE.PMS.Tests.UnitTest
                 {
                     UserID=1,
                     ProjectID=1,
-                    FirstName="Sathya",
-                    LastName="Natarajan",
-                    EmployeeID="433461"
+                    FirstName="USER 01",
+                    LastName="A",
+                    EmployeeID="1"
                 },
                 new Users
                 {
                     UserID=2,
-                    ProjectID=1,
-                    FirstName="Murali",
-                    LastName="S",
-                    EmployeeID="433465"
+                    ProjectID=2,
+                    FirstName="USER 02",
+                    LastName="B",
+                    EmployeeID="2"
                 },
                 new Users
                 {
                     UserID=3,
-                    ProjectID=2,
-                    FirstName="Hari",
-                    LastName="M",
-                    EmployeeID="433469"
+                    ProjectID=3,
+                    FirstName="USER 03",
+                    LastName="C",
+                    EmployeeID="3"
                 }
             }.AsQueryable();
 
@@ -95,39 +95,39 @@ namespace FSE.PMS.Tests.UnitTest
                 new Tasks
                 {
                     TaskID=1,
-                    Task="Task 1",
+                    Task="TS-RAISE E2 RFC",
                     ProjectID=1,
-                    Priority=10,
+                    Priority=1,
                     StartDate=DateTime.Now.Date,
-                    EndDate=DateTime.Now.Date.AddDays(1)
+                    EndDate=DateTime.Now.Date.AddDays(5)
                 },
                 new Tasks
                 {
                     TaskID=2,
-                    Task="Task 2",
+                    Task="DBA TEAM COORDINATION",
                     ProjectID=1,
-                    Priority=20,
+                    Priority=0,
                     StartDate=DateTime.Now.Date,
-                    EndDate=DateTime.Now.Date.AddDays(1),
+                    EndDate=DateTime.Now.Date.AddDays(5),
                     Status=true
                 },
                 new Tasks
                 {
                    TaskID=3,
-                    Task="Task 3",
-                    ProjectID=2,
-                    Priority=10,
+                    Task="SDM TEAM ALIGNMENT",
+                    ProjectID=1,
+                    Priority=2,
                     StartDate=DateTime.Now.Date,
-                    EndDate=DateTime.Now.Date.AddDays(1)
+                    EndDate=DateTime.Now.Date.AddDays(5)
                 },
                 new Tasks
                 {
                    TaskID=4,
-                    Task="Task 4",
-                    ProjectID=2,
-                    Priority=20,
+                    Task="SERVER SUPPORT TEAM APPROVAL",
+                    ProjectID=1,
+                    Priority=2,
                     StartDate=DateTime.Now.Date,
-                    EndDate=DateTime.Now.Date.AddDays(1),
+                    EndDate=DateTime.Now.Date.AddDays(5),
                     Status=true
                 }
             }.AsQueryable();
