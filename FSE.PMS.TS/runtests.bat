@@ -1,1 +1,0 @@
-C:\Projects\SBAAssessment\ProjectManager\ProjectManagerService\packages\NUnit.ConsoleRunner.3.9.0\tools\nunit3-console.exe C:\Projects\SBAAssessment\ProjectManager\ProjectManagerService\ProjectManagerService.Tests\bin\Debug\ProjectManagerService.Tests.dll
