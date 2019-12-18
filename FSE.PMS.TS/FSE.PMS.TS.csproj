@@ -86,6 +86,7 @@
     <Compile Include="LoadTest\MemoryTests.cs" />
     <Compile Include="LoadTest\PerformanceTestStuite.cs" />
     <Compile Include="UnitTest\MockProjectBL.cs" />
+    <Compile Include="UnitTest\MockProjectManager.cs" />
     <Compile Include="UnitTest\MockTaskBL.cs" />
     <Compile Include="UnitTest\MockUserBL.cs" />
     <Compile Include="UnitTest\ProjectControllersTest.cs" />
